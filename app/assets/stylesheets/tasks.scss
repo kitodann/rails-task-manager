@@ -1,3 +1,33 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+#Navbar {
+  background-color: lightskyblue;
+  padding: 5px;
+}
+
+.tasks {
+  text-decoration: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: smaller;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin: 2px 0px 2px 0px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 6px;
+}
+
+.new-task {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
